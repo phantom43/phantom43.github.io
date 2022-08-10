@@ -4,7 +4,7 @@ body {
 	display: grid;
 	margin-right: auto;
 	margin-left: auto;
-	background-image: url('/backgrounnd-website.jpg');
+	background-image: url('https://github.com/phantom43/phantom43.github.io/blob/main/backgrounnd-website.jpg');
  	background-size:cover;
  	background-repeat: no-repeat;
 }
