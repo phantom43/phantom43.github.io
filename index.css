@@ -1,0 +1,94 @@
+body {
+	width: fit-content;
+	background-color: whitesmoke;
+	display: grid;
+	margin-right: auto;
+	margin-left: auto;
+	background-image: url('file:///home/dion/Pictures/backgrounnd-website.jpg');
+ 	background-size:cover;
+ 	background-repeat: no-repeat;
+}
+@media only screen and (min-width:1px) and (max-width:600px) {
+body {
+    background-size: 360px 600px
+}
+}
+p {
+	text-align: center
+}
+.menu {
+	place-items: center;
+	background-color: white;
+	width: 220px;
+	height: 50px;
+	position: sticky;
+	margin-top: -35px;
+	margin-right: auto;
+	margin-left: auto;
+	border-radius: 25px;
+	box-shadow: 0px 10px 10px black;
+	transition: 1s;
+	overflow: hidden;
+	color: black;
+	text-align: center;
+	word-spacing: 10px;
+}
+.menu:hover {
+	width: 360px;
+	height: 100px;
+	opacity: 1;
+}
+.menu:hover a {
+	visibility: visible;
+	text-decoration: none;
+	color: black;
+	background-color: grey;
+}
+.menu a{
+	visibility: hidden;
+}
+.menu img {
+	margin-right: auto;
+	margin-left: auto;
+}
+h1 {
+	font-family: courier new;
+	text-align: center;
+}
+li {
+	text-decoration: none;
+}
+.card{
+	display: grid;
+	place-items: center;
+	height: 355px;
+	width: 255px;
+	border-radius: 1em;
+	background: linear-gradient(50deg, #2a5a3b, #1e4886);
+	overflow: hidden;
+	margin-left: auto;
+	margin-right: auto;
+}
+.card::before {
+	content: "";
+	position: absolute;
+	width: 450px;
+	height: 35px;
+	top: 0;
+	right: 35px;
+	transition: 1.9s;
+	background: linear-gradient(50deg, #00ff59, #02b3ff);
+	transform: rotate(-45deg) translate(0, -100px);
+
+}
+.card p {
+	padding-top: -50;
+}
+@keyframes background {
+	0% {
+		width: 440px;
+	}
+	100% {
+		height: 500px;
+	}
+}
