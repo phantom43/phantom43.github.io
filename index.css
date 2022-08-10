@@ -4,7 +4,7 @@ body {
 	display: grid;
 	margin-right: auto;
 	margin-left: auto;
-	background-image: url('file:///home/dion/Pictures/backgrounnd-website.jpg');
+	background-image: url('/backgrounnd-website.jpg');
  	background-size:cover;
  	background-repeat: no-repeat;
 }
